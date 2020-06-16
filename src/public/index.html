@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.6.10/lottie.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="ctn-enemy">
+        <img id="enemy-img" src="./assets/peopleImage/7.svg" alt="">
+        <p>inimigo</p>
+        <h2 id="enemy-name">Joazin</h2>
+      </div>
+      <div class="login-ctn">
+        <h3>Insira seu nome</h3>
+        <input id="user-name" type="text">
+        <button onclick="selectName(this)">Play</button>
+      </div>
+      <div class="login">
+        <h2>Procurando</h2>
+        <p id="timeSearch"></p>
+
+
+      </div>
+      <div id="animation">
+        <div id="animation">
+
+        </div>
+      </div>
+
+      <div class="game-card">
+        <div id="result">
+          <h2 id="result-text"></h2>
+        </div>
+        <div id="options-ctn">
+          <div id="options" onclick="play(this)">
+            <img src="./assets/stone.svg" alt="pedra">
+            <p>Pedra</p>
+          </div>
+          <div id="options" onclick="play(this)">
+            <img src="./assets/paper.svg" alt="papel">
+            <p>Papel</p>
+          </div>
+          <div id="options" onclick="play(this)">
+            <img src="./assets/scissors.svg" alt="tesoura">
+            <p>Tesoura</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
