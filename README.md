@@ -7,7 +7,7 @@
 ## Demo
 
 <p align="center">
-  <video width="460" height="300" src="https://user-images.githubusercontent.com/34286800/84929497-e2d22b80-b09d-11ea-9b5e-c118fd0cae94.gif">
+  <img src="https://user-images.githubusercontent.com/34286800/84929497-e2d22b80-b09d-11ea-9b5e-c118fd0cae94.gif">
 </p>
 
 ## Start
