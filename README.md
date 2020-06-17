@@ -1,8 +1,5 @@
 ![license](https://img.shields.io/github/license/xmatheus/pedra-papel-tesoura-socket.io?style=for-the-badge) 
 
-![https://img.shields.io/badge/autor-xmatheus-red](https://img.shields.io/badge/autor-xmatheus-red)
-
-
 
 ## Demo
 
