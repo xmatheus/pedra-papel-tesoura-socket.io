@@ -1,5 +1,9 @@
 ![license](https://img.shields.io/github/license/xmatheus/pedra-papel-tesoura-socket.io?style=for-the-badge) 
 
+## Sobre
+
+Jogo em tempo real, com salas dinâmicas de no máximo 2 jogadores.
+Depois de determinado tempo de busca, um bot é colocado para jogar contra o usuário.
 
 ## Demo
 
